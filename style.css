@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.box {
+    height: 100vh;
+}
+#form-enkrip-dekrip {
+    display: none;
+}
+.displayOn {
+    display: block !important;
+}
+#keyAffine {
+    display: none;
+}
+#fromKey {
+    display: none;
+}
+#valueA,#valueB {
+    text-align: center;
+}
