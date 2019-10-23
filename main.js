@@ -51,7 +51,7 @@ $(document).ready(function() {
                 $('#plaintext').val(crypt($('#chipertext').val(),$('#key').val().toLowerCase(),2))
             }else if($('#type').val() == 'monoalphabetik'){
                 var strKey = keyMono($('#key').val().toLowerCase());
-                // var msg = $('#chipertext').val();
+                var msg = $('#chipertext').val();
                 $('#plaintext').val(doDecryptMono(msg,strKey));
             }else{
                 var msg = $('#chipertext').val();
